@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Governance Constitution
+    url: https://github.com/Elmahrosa/TEOS-FORGE/blob/main/docs/governance.md
+    about: Review governance rules before proposing changes that affect authority or value flow.
+  - name: Sustainability Model
+    url: https://github.com/Elmahrosa/TEOS-FORGE/blob/main/docs/monetization.md
+    about: Understand how TEOS Forge remains open while sustaining long-term development.
+  - name: Security Disclosure
+    url: https://github.com/Elmahrosa/TEOS-FORGE/blob/main/SECURITY.md
+    about: Report sensitive security issues privately using the security policy.
