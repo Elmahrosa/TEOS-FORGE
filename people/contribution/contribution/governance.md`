@@ -1,0 +1,28 @@
+---
+
+## 📁 `contribution/governance.md`
+
+```markdown
+# Contribution Module — Governance Rules
+
+## Merge Rules
+
+- Must be linked to an issue or proposal
+- CI must pass
+- Required reviews must be completed
+- Audit impact must be declared
+
+## Proposal Lifecycle
+
+1. Draft opened
+2. Reviewed by Steward or Maintainer
+3. Approved and tagged
+4. Implemented via PR
+5. Merged with audit trace
+
+## Bounty Rules
+
+- Must be declared in issue or proposal
+- Claimed by contributor
+- Verified by review
+- Paid via value-flow module
