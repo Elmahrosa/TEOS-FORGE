@@ -1,0 +1,13 @@
+{
+  "id": "contributor-001",
+  "github_username": "octocat",
+  "display_name": "Open Source Contributor",
+  "roles": ["contributor"],
+  "verified": false,
+  "badges": [],
+  "affiliations": [],
+  "wallets": [],
+  "created_at": "2026-01-01T00:00:00Z",
+  "notes": "Initial contributor profile. No elevated permissions."
+}
+
