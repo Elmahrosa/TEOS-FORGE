@@ -1,1 +1,30 @@
+name: TEOS Forge App
+description: Governance-first GitHub App for contribution verification, audit signaling, and civic coordination.
+url: https://github.com/Elmahrosa/TEOS-FORGE
+
+default_permissions:
+  contents: read
+  issues: write
+  pull_requests: write
+  checks: write
+  statuses: write
+  metadata: read
+
+default_events:
+  - push
+  - pull_request
+  - pull_request_review
+  - issues
+  - issue_comment
+  - workflow_run
+  - release
+
+public: true
+
+request_oauth_on_install: false
+
+setup_url: https://github.com/Elmahrosa/TEOS-FORGE
+
+hook_attributes:
+  url: https://forge.teosegypt.com/webhooks/github
 
