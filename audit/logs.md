@@ -75,6 +75,13 @@ Each audit log entry **must include all fields** below:
   Archived logs must remain accessible to the core maintenance team.
 
 ---
+## CI Failure Mapping
+
+- **Lint Failure** → Severity: Low, Action: Contributor fix
+- **Policy Check Failure** → Severity: Medium, Action: Maintainer review
+- **Missing Governance File** → Severity: High, Action: Auditor intervention
+- **Security Workflow Failure** → Severity: Critical, Action: Treasury freeze
+
 
 ## Enforcement
 
