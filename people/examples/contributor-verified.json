@@ -1,0 +1,17 @@
+{
+  "id": "contributor-014",
+  "github_username": "dev-civic",
+  "display_name": "Civic Developer",
+  "roles": ["contributor"],
+  "verified": true,
+  "badges": ["contribution-verified"],
+  "affiliations": ["open-source"],
+  "wallets": [
+    {
+      "chain": "solana",
+      "address": "ExampleWalletAddress123"
+    }
+  ],
+  "created_at": "2026-01-05T10:30:00Z",
+  "notes": "Verified through merged PRs and audit confirmation."
+}
