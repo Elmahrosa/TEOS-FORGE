@@ -1,16 +1,15 @@
 # TEOS Forge
-Sovereign developer coordination and contribution platform.
-Built on GitHub and powered by TEOS, TEOS Forge turns repositories into civic infrastructure with enforced governance, audit readiness, and accountable value flow—designed for institutional adoption and long-term public trust.
+
 **Sovereign Developer Coordination & Contribution Platform**  
 Built on GitHub, Powered by TEOS
 
 > Turning Repositories into Civic Infrastructure
 
-![Forge CI](https://github.com/Elmahrosa/teosforge/actions/workflows/forge-ci.yml/badge.svg)
+![Forge CI](https://github.com/Elmahrosa/TEOS-FORGE/actions/workflows/forge-ci.yml/badge.svg)
 ![Audit Ready](https://img.shields.io/badge/Audit-Ready-blue)
 ![Contribution Verified](https://img.shields.io/badge/Contribution-Verified-green)
 ![Sustainability Model](https://img.shields.io/badge/Sustainability-Civic--First-gold)
-![License](https://img.shields.io/github/license/Elmahrosa/teosforge)
+![License](https://img.shields.io/github/license/Elmahrosa/TEOS-FORGE)
 ![Security Policy](https://img.shields.io/badge/Security-Policy-critical)
 
 ---
@@ -44,7 +43,7 @@ TEOS Forge enables:
 | **Audit** | Compliance, logs, hygiene, and audit readiness |
 | **Value Flow** | Rewards, treasury governance, staking, royalties |
 
-Each pillar is enforced through documentation, CI, governance rules, and review—not promises.
+Each pillar is enforced through documentation, CI, governance rules, and review — not promises.
 
 ---
 
@@ -52,7 +51,7 @@ Each pillar is enforced through documentation, CI, governance rules, and review�
 
 ```
 
-teosforge/
+TEOS-FORGE/
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
@@ -120,10 +119,10 @@ They reflect verifiable states enforced by policy, automation, and review.
 
 TEOS Forge is designed for:
 
-- Open-source communities seeking structure
-- Civic-tech and public digital infrastructure
-- Long-lived protocol and platform development
-- Institutions requiring auditability and accountability
+- Open-source communities seeking structure  
+- Civic-tech and public digital infrastructure  
+- Long-lived protocol and platform development  
+- Institutions requiring auditability and accountability  
 
 It is intentionally **not** optimized for hype, speed-only shipping, or speculative behavior.
 
