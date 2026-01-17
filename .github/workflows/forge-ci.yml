@@ -32,4 +32,26 @@ jobs:
 
       - name: Forge CI status
         run: echo "Forge CI checks passed."
+name: Forge CI
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint Markdown
+        uses: avto-dev/markdown-lint@v1
+      - name: Lint YAML
+        run: yamllint .
+
+  policy-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Governance Files
+        run: |
+          test -f docs/governance.md || (echo "Missing governance.md" && exit 1)
+          test -f docs/monetization.md || (echo "Missing monetization.md" && exit 1)
 
