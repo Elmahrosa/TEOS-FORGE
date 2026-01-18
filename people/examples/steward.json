@@ -1,0 +1,14 @@
+{
+  "id": "steward-003",
+  "github_username": "governance-steward",
+  "display_name": "Governance Steward",
+  "roles": ["contributor", "steward"],
+  "verified": true,
+  "badges": ["contribution-verified", "governance-steward"],
+  "affiliations": ["teos-forge"],
+  "wallets": [],
+  "appointed_by": "maintainer",
+  "appointment_reference": "issue-42",
+  "created_at": "2026-01-10T14:00:00Z",
+  "notes": "Authorized to review governance proposals. No merge authority."
+}

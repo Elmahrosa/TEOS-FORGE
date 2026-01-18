@@ -1,0 +1,57 @@
+name: Forge CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  forge-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate repository structure
+        run: |
+          echo "Checking required files..."
+          test -f README.md
+          test -f LICENSE
+          test -f CONTRIBUTING.md
+          test -f CODE_OF_CONDUCT.md
+          test -f SECURITY.md
+
+      - name: Validate governance documentation
+        run: |
+          test -f docs/governance.md
+          test -f docs/monetization.md
+          test -f docs/badges.md
+
+      - name: Forge CI status
+        run: echo "Forge CI checks passed."
+name: Forge CI
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint Markdown
+        uses: avto-dev/markdown-lint@v1
+      - name: Lint YAML
+        run: yamllint .
+
+  policy-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Governance Files
+        run: |
+          test -f docs/governance.md || (echo "Missing governance.md" && exit 1)
+          test -f docs/monetization.md || (echo "Missing monetization.md" && exit 1)
+
