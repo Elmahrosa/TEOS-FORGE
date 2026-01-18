@@ -239,3 +239,9 @@ for global Digital Public Infrastructure.
 Originating Steward of TEOS Forge
 
 ---
+## License
+This repository uses the **PolyForm Noncommercial License 1.0.0**.  
+- Forks allowed for noncommercial use (education, research, testing).  
+- Commercial use requires written approval from Elmahrosa International.  
+- Violations terminate rights immediately.  
+📩 For commercial licensing:ayman@teosegypt.com
