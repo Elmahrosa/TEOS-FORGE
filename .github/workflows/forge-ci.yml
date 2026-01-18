@@ -54,4 +54,33 @@ jobs:
         run: |
           test -f docs/governance.md || (echo "Missing governance.md" && exit 1)
           test -f docs/monetization.md || (echo "Missing monetization.md" && exit 1)
+name: Forge CI
+
+on:
+  pull_request:
+    paths:
+      - '**/*.js'
+      - '**/*.rs'
+
+jobs:
+  license-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check license headers
+        run: |
+          echo "🔍 Checking for Sovereign License headers..."
+          # Define the required header string
+          REQUIRED="Copyright © 2025 Elmahrosa International"
+          # Search all .js and .rs files for the header
+          MISSING=$(grep -L "$REQUIRED" $(find . -type f \( -name "*.js" -o -name "*.rs" \)))
+          if [ -n "$MISSING" ]; then
+            echo "❌ License header missing in the following files:"
+            echo "$MISSING"
+            exit 1
+          else
+            echo "✅ All files contain the Sovereign License header."
+          fi
 
