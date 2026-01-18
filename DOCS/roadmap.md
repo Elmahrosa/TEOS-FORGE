@@ -89,6 +89,9 @@ TEOS Forge is Egyptian-originated, sovereign by design, and universally applicab
 * **Inter-Institution Alignment:** Collaborative governance for regional infrastructure.
 * **Global Standards Compliance:** Alignment with UN and World Bank DPI frameworks.
 
+Federation is opt-in, reversible, and does not create supranational authority.
+
+
 **Status:** 🚀 Future
 
 ---
