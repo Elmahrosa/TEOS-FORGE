@@ -1,0 +1,19 @@
+{
+  "name": "@elmahrosa/teos-cli",
+  "version": "0.1.0",
+  "description": "TEOS Forge CLI (MVP) — governed project factory and compliance gate",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "teos": "./bin/teos.js"
+  },
+  "scripts": {
+    "dev": "node ./bin/teos.js",
+    "lint": "node -c ./bin/teos.js && node -c ./src/index.js",
+    "test": "node ./bin/teos.js validate"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "kleur": "^4.1.5"
+  }
+}
