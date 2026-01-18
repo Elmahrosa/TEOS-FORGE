@@ -1,45 +1,40 @@
-## ⚖️ License
-
-![License](https://img.shields.io/badge/License-Dual--Licensed-blue)
-![Source Available](https://img.shields.io/badge/Model-Source--Available-lightgrey)
-![PolyForm](https://img.shields.io/badge/PolyForm-Noncommercial-orange)
-![Sovereign](https://img.shields.io/badge/TEOS-Sovereign%20License-gold)
-![Governance](https://img.shields.io/badge/Governance-Audit--Ready-green)
+# LICENSING NOTICE
 
 This repository is **source-available, not open source**.
 
-It is governed by a **dual-license framework** designed to preserve **institutional control, auditability, and digital sovereignty**, while still enabling responsible non-commercial use.
+It is governed by a **dual-license framework** to ensure clarity, institutional control, and digital sovereignty.
 
-### Governing Licenses
+## Governing Licenses
 
-* **PolyForm Noncommercial License 1.0.0**
-  Governs all **non-commercial usage**, including education, research, testing, and civic experimentation.
-  🔗 [https://polyformproject.org/licenses/noncommercial/1.0.0/](https://polyformproject.org/licenses/noncommercial/1.0.0/)
+### 1. PolyForm Noncommercial License 1.0.0
 
-* **TEOS Egypt Sovereign License (TESL)**
-  Governs **sovereign, governmental, institutional, and regulated deployments** within the TEOS Forge / Pharaoh Portal ecosystem.
-  🔗 [https://github.com/Elmahrosa/Pharaoh-Portal/blob/main/LICENSES/TESL.md](https://github.com/Elmahrosa/Pharaoh-Portal/blob/main/LICENSES/TESL.md)
+This license applies to all usage of the repository that is **noncommercial**, including:
 
-### Usage Terms
+- Education  
+- Academic research  
+- Evaluation and testing  
+- Civic and community development
 
-* ✅ **Forks are permitted** for non-commercial purposes (education, research, evaluation, testing).
-* ❌ **Commercial use is prohibited** without prior written authorization.
-* 🏛 **Governmental or institutional deployment** is governed exclusively by TESL.
-* ⚠️ **Any violation** of these terms results in **immediate termination of all rights** under both licenses.
+**Full license text (authoritative):**  
+https://polyformproject.org/licenses/noncommercial/1.0.0/ :contentReference[oaicite:2]{index=2}
 
----
+### 2. TEOS Egypt Sovereign License (TESL)
 
-### 📩 Commercial & Institutional Licensing
+This license applies to **sovereign, governmental, institutional, or regulated deployments** of this software.
 
-For commercial deployment, institutional adoption, or sovereign partnerships, contact the lead steward:
+**Full license text:**  
+https://github.com/Elmahrosa/TEOS-FORGE/blob/main/LICENSES/TESL.md
 
-**Contact:** Ayman Seif
-**Organization:** Elmahrosa International
-**Email:** [ayman@teosegypt.com](mailto:ayman@teosegypt.com)
+## License Terms
 
----
+- ✅ **Non-commercial forks are permitted** for education, research, and testing.
+- ❌ **Commercial use is prohibited** without prior written authorization from Elmahrosa International.
+- 🏛 **Government or institutional use** is governed by the TEOS Egypt Sovereign License.
+- ⚠️ Any violation of these terms **terminates all rights** granted under these licenses.
 
-**TEOS Egypt · El-Mahrosa International**
-*Sovereign governance before automation. From Egypt to the world.*
+## Commercial & Institutional Licensing
 
----
+For questions about commercial deployment or institutional partnerships, contact:
+
+**Ayman Seif — Elmahrosa International**  
+Email: ayman@teosegypt.com
