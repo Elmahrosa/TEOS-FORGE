@@ -1,100 +1,101 @@
 # TEOS Forge — Comprehensive Roadmap
 
-This roadmap defines how TEOS Forge evolves from a governance standard
-into a globally adopted framework for Digital Public Infrastructure (DPI).
+This roadmap defines how TEOS Forge evolves from a governance standard into a globally adopted framework for **Digital Public Infrastructure (DPI)**. 
 
-TEOS Forge is Egyptian-originated, sovereign by design, and universally applicable.
-
----
-
-## Principles
-
-1. Governance before automation  
-2. Audit before value  
-3. Accountability before scale  
-4. Sovereign adoption without constraint  
-5. Federated interoperability across institutions
+TEOS Forge is Egyptian-originated, sovereign by design, and universally applicable. It operates on the principle that the social architecture of software (governance) must precede its technical execution.
 
 ---
 
-## Phase 0 — Governance Foundation (Completed)
+## 🏛️ Principles
+
+1. **Governance before automation** – Rules are human-readable before machine-executable.
+2. **Audit before value** – No resource flow without a verified audit trail.
+3. **Accountability before scale** – Systems must be defensible before expansion.
+4. **Sovereign adoption** – No central dependency; institutions own their instance.
+5. **Federated interoperability** – Cross-border collaboration by design.
+
+---
+
+## 📍 Phase 0 — Governance Foundation (Completed)
 
 **Goal:** Establish explicit, documented governance before any automation.
 
-- Governance constitution  
-- Accountability and escalation protocols  
-- Audit readiness policies  
-- Value Flow rules (off-chain, conceptual)  
-- CI workflows and contribution templates
+* **Governance Constitution:** Define the rules of engagement.
+* **Accountability Protocols:** Levels 1–4 escalation and dispute resolution.
+* **Audit Readiness:** Strict repository hygiene and compliance checklists.
+* **Value Flow Rules:** Conceptual frameworks for rewards and reputation.
+* **CI Workflows:** Initial policy-as-code linting.
 
-**Status:** Completed
+**Status:** ✅ Completed (v0.1.0)
 
 ---
 
-## Phase 1 — GitHub App Coordination Layer (Active)
+## 📍 Phase 1 — GitHub App Coordination Layer (Active)
 
 **Goal:** Automate enforcement of governance signals without transferring authority.
 
-- GitHub App manifest (`github-app/app.yml`)
-- Webhook endpoints with signature verification
-- Audit event logging (Phase 1 backend)
-- Contribution_verified signals on PR merges
-- Non-monetary badge issuance  
-- Health checks and uptime monitoring
+* **GitHub App Manifest:** Deployment configuration (`github-app/app.yml`).
+* **Observation Layer:** Webhook endpoints with signature verification.
+* **Audit Event Logging:** Automated generation of immutable audit entries.
+* **Trust Signals:** Issuance of `contribution_verified` labels and non-monetary badges.
+* **Health Monitoring:** Uptime and signature integrity checks.
 
-**Output:** Verified, auditable contribution events  
-**Status:** In progress
+
+
+**Phase 1 Completion Criteria:**
+- App verifies all incoming webhook signatures.
+- Audit events are generated for every merge to protected branches.
+- No automated financial execution is enabled.
+
+**Status:** 🏗️ In Progress
+- Phase 1 explicitly excludes any on-chain or off-chain financial execution.
 
 ---
 
-## Phase 2 — Treasury & Off-Chain Value Flow (Planned)
+## 📍 Phase 2 — Treasury & Off-Chain Value Flow (Planned)
 
 **Goal:** Enable treasury execution under governance and audit control.
 
-- Treasury intent and approval frameworks
-- Dual sign-off governance for payouts
-- Off-chain payout execution logs
-- Treasury report templates
-- Institutional reporting formats
+* **Treasury Intent:** Frameworks for proposing resource allocation.
+* **Dual Sign-off:** Mandatory concurrence between Maintainers and Auditors for payouts.
+* **Off-Chain Logs:** Human-readable payout execution history.
+* **Institutional Reporting:** Standardized templates for government and NGO audit compliance.
 
-**Output:** Audit-gated value execution  
-**Status:** Planned
+**Status:** 📅 Planned
 
 ---
 
-## Phase 3 — On-Chain Execution (Controlled & Governed)
+## 📍 Phase 3 — On-Chain Execution (Controlled & Governed)
 
 **Goal:** Extend value flow onto secure smart contracts without compromising governance.
 
-- Contract execution of approved payout intents
-- On-chain reputation and staking mechanisms
-- Audit trace mirroring on chain
-- Emergency pause functionality
-- Read-only transparency dashboards
+* **Governed Payouts:** Contract execution of approved payout intents (Solana/Ethereum/Pi).
+* **On-Chain Reputation:** Verifiable contribution records used for staking.
+* **Emergency Pause:** A "Kill Switch" linked to Phase 0 accountability protocols.
+* **Transparency Dashboards:** Read-only views of treasury health and audit traces.
 
-**Output:** On-chain DPI execution aligned with governance  
-**Status:** Planned
 
----
 
-## Phase 4 — Global DPI Federation (Future)
-
-**Goal:** Enable sovereign instances of TEOS Forge to interoperate,
-exchange audit data, and support federated infrastructure.
-
-- Federation protocols
-- Cross-instance audit compatibility
-- Inter-institution governance alignment
-- Optional international standards compliance layers
-
-**Output:** Sovereign, interoperable DPI landscapes  
-**Status:** Future
+**Status:** 📅 Planned
 
 ---
 
-## Metrics of Success
+## 📍 Phase 4 — Global DPI Federation (Future)
 
-- Institutional pilot deployments  
-- Audit certification (formal review bodies)  
-- Federation use cases in multiple jurisdictions  
-- Reference governance adoption in DPI frameworks
+**Goal:** Enable sovereign instances of TEOS Forge to interoperate and exchange audit data.
+
+* **Federation Protocols:** Standardized communication between independent TEOS deployments.
+* **Cross-Instance Audit:** Enabling one institution to verify the logs of another.
+* **Inter-Institution Alignment:** Collaborative governance for regional infrastructure.
+* **Global Standards Compliance:** Alignment with UN and World Bank DPI frameworks.
+
+**Status:** 🚀 Future
+
+---
+
+## 📊 Metrics of Success
+
+* **Institutional Adoption:** Successful pilot deployments in government or civic sectors.
+* **Audit Integrity:** Zero undocumented merges or policy bypasses.
+* **Sovereign Resilience:** Ability for a fork to operate independently of the original maintainers.
+* **Federation Growth:** Multiple instances exchanging verified audit signals.
