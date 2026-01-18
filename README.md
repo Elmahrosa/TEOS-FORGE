@@ -1,4 +1,19 @@
 # TEOS Forge
+# TEOS Forge — Global Governance Engine
+
+Originated in Egypt under Elmahrosa International, TEOS Forge is a **sovereign, universal framework** for Digital Public Infrastructure (DPI).  
+It transforms repositories into **governable, auditable civic systems** — applicable to ministries, banks, NGOs, and global institutions.
+
+## Mission
+Governance before automation.  
+Audit before value.  
+Accountability before scale.
+
+## Scope
+- Universal governance modules (People, Contribution, Accountability, Audit, Value Flow)
+- Institutional trust signals (badges, CI, audit logs)
+- Treasury and payout frameworks (off‑chain and on‑chain)
+- Federation protocols for multi‑country adoption
 
 **Sovereign Developer Coordination & Contribution Platform**  
 Built on GitHub, Powered by TEOS
