@@ -1,24 +1,4 @@
-# TEOS Forge
 # TEOS Forge — Global Governance Engine
-
-Originated in Egypt under Elmahrosa International, TEOS Forge is a **sovereign, universal framework** for Digital Public Infrastructure (DPI).  
-It transforms repositories into **governable, auditable civic systems** — applicable to ministries, banks, NGOs, and global institutions.
-
-## Mission
-Governance before automation.  
-Audit before value.  
-Accountability before scale.
-
-## Scope
-- Universal governance modules (People, Contribution, Accountability, Audit, Value Flow)
-- Institutional trust signals (badges, CI, audit logs)
-- Treasury and payout frameworks (off‑chain and on‑chain)
-- Federation protocols for multi‑country adoption
-
-**Sovereign Developer Coordination & Contribution Platform**  
-Built on GitHub, Powered by TEOS
-
-> Turning Repositories into Civic Infrastructure
 
 ![Forge CI](https://github.com/Elmahrosa/TEOS-FORGE/actions/workflows/forge-ci.yml/badge.svg)
 ![Audit Ready](https://img.shields.io/badge/Audit-Ready-blue)
@@ -28,37 +8,71 @@ Built on GitHub, Powered by TEOS
 ![Security Policy](https://img.shields.io/badge/Security-Policy-critical)
 
 ---
+
+## Vision
+
+Founded in Egypt under **Ayman Seif** and **Elmahrosa International**, TEOS Forge is the **first civic‑first governance engine** designed for **Digital Public Infrastructure (DPI)**.  
+It is **Egypt‑originated but globally sovereign and universal**, providing a framework for ministries, banks, NGOs, and institutions worldwide.
+
+See full vision: [`docs/vision.md`](docs/vision.md)
+
+---
+
+## Mission
+
+> **Governance before automation.  
+> Audit before value.  
+> Accountability before scale.**
+
+TEOS Forge transforms repositories into **governable civic systems**.  
+Every commit, issue, and payout is subject to transparent governance, audit readiness, and institutional trust signals.
+
+---
+
+## Scope
+
+- Universal governance modules (People, Contribution, Accountability, Audit, Value Flow)  
+- Institutional trust signals (badges, CI, audit logs)  
+- Treasury and payout frameworks (off‑chain and on‑chain)  
+- Federation protocols for multi‑country adoption  
+
+**Sovereign Developer Coordination & Contribution Platform**  
+Built on GitHub, Powered by TEOS  
+
+> Turning Repositories into Civic Infrastructure
+
+---
+
 ## Who TEOS Forge Is For
 
-TEOS Forge is designed for:
+- Governments and public institutions  
+- National and cross‑border Digital Public Infrastructure (DPI)  
+- Civic‑tech and public software foundations  
+- Long‑lived protocol and infrastructure builders  
+- Institutions requiring auditability, sovereignty, and exit guarantees  
 
-- Governments and public institutions
-- National and cross-border Digital Public Infrastructure (DPI)
-- Civic-tech and public software foundations
-- Long-lived protocol and infrastructure builders
-- Institutions requiring auditability, sovereignty, and exit guarantees
-
-It is **originated in Egypt**, but **not limited to any jurisdiction**.
+It is **originated in Egypt**, but **not limited to any jurisdiction**.  
 
 TEOS Forge is intentionally:
-- Jurisdiction-agnostic
-- Vendor-neutral
-- Sovereignty-preserving
-- Compatible with national legal frameworks
+- Jurisdiction‑agnostic  
+- Vendor‑neutral  
+- Sovereignty‑preserving  
+- Compatible with national legal frameworks  
 
 It is not optimized for speculative ecosystems or informal governance.
 
+---
+
 ## What Is TEOS Forge?
 
-TEOS Forge transforms GitHub repositories into **governable, auditable, and value-aware coordination systems**.
+TEOS Forge transforms GitHub repositories into **governable, auditable, and value‑aware coordination systems**.  
 
 It is **not** a framework.  
 It is **not** a DAO experiment.  
 
-It is **civic-grade developer infrastructure** designed for long-term public and institutional use.
+It is **civic‑grade developer infrastructure** designed for long‑term public and institutional use.
 
 TEOS Forge enables:
-
 - Verified, attributable contribution  
 - Enforced governance and role clarity  
 - Transparent, reviewable audit trails  
@@ -70,7 +84,7 @@ TEOS Forge enables:
 ## Core Pillars
 
 | Pillar | Purpose |
-|------|--------|
+|--------|---------|
 | **People** | Contributor identity, roles, verification, and badges |
 | **Contribution** | Commits, pull requests, proposals, and bounties |
 | **Accountability** | Permissions, escalation, and dispute resolution |
@@ -84,7 +98,6 @@ Each pillar is enforced through documentation, CI, governance rules, and review 
 ## Repository Structure
 
 ```
-
 TEOS-FORGE/
 ├── README.md
 ├── LICENSE
@@ -107,7 +120,6 @@ TEOS-FORGE/
 │
 ├── github-app/              # GitHub App integration
 └── .github/                 # CI, issue & PR templates
-
 ```
 
 ---
@@ -128,12 +140,12 @@ TEOS Forge is governed by an explicit constitution.
 
 TEOS Forge is **open by default** and **sustainable by design**.
 
-- Core coordination logic is open-source  
+- Core coordination logic is open‑source  
 - Contributions are never paywalled  
 - Monetization applies only to:
-  - Hosted infrastructure
-  - Enterprise compliance & support
-  - White-label sovereign deployments  
+  - Hosted infrastructure  
+  - Enterprise compliance & support  
+  - White‑label sovereign deployments  
 
 💠 See: [`docs/monetization.md`](docs/monetization.md)
 
@@ -141,54 +153,62 @@ TEOS Forge is **open by default** and **sustainable by design**.
 
 ## Trust Signals
 
-Badges in this repository are **governance signals**, not marketing.
-
+Badges in this repository are **governance signals**, not marketing.  
 They reflect verifiable states enforced by policy, automation, and review.
 
 🔎 See: [`docs/badges.md`](docs/badges.md)
 
 ---
 
-## Who This Is For
+## Roadmap
 
-TEOS Forge is designed for:
+TEOS Forge is deployed in **phases**:
 
-- Open-source communities seeking structure  
-- Civic-tech and public digital infrastructure  
-- Long-lived protocol and platform development  
-- Institutions requiring auditability and accountability  
+- **Phase 0 — Governance Foundation:** ✅ Completed  
+- **Phase 1 — GitHub App Coordination Layer:** Planned  
+- **Phase 2 — Treasury & Value Flow Execution (Off‑Chain):** Planned  
+- **Phase 3 — On‑Chain Value Flow (Controlled):** Planned  
+- **Phase 4 — Institutional Deployment & Federation:** Future  
 
-It is intentionally **not** optimized for hype, speed-only shipping, or speculative behavior.
-
----
-
-## Contributing
-
-All contributions must follow TEOS Forge governance rules.
-
-- Issues and proposals are mandatory  
-- CI and review are enforced  
-- Governance and audit impact must be declared  
-
-📌 Start here: [`CONTRIBUTING.md`](CONTRIBUTING.md)
+See full roadmap: [`docs/roadmap.md`](docs/roadmap.md)
 
 ---
 
-## Security
+## How to Earn
 
-Security concerns must follow responsible disclosure.
+Contributors earn **ERT (Elmahrosa Reserve Token)** or stablecoin payouts by:
+1. Submitting Issues/PRs using templates  
+2. Passing CI + audit checks  
+3. Receiving Maintainer + Auditor approval  
+4. Appearing in Treasury Reports (`value-flow/templates/treasury-report.md`)  
 
-🚨 See: [`SECURITY.md`](SECURITY.md)
+See earning guide: [`docs/earn.md`](docs/earn.md)
 
 ---
 
-## License
+## Release Notes
 
-This project is licensed under the terms defined in [`LICENSE`](LICENSE).
+- Latest release: [`docs/release-notes/v0.1.0.md`](docs/release-notes/v0.1.0.md)  
+- Tag: `v0.1.0-governance`  
+
+---
+
+## Institutional Alignment
+
+TEOS Forge is aligned with:
+- **UN Sustainable Development Goals (SDGs)**  
+- **World Bank DPI frameworks**  
+- **National digital strategies** for civic infrastructure  
+- **Audit and compliance standards** for ministries and regulators  
 
 ---
 
 **TEOS Forge**  
 Open enough to earn trust.  
 Structured enough to govern.  
-Sovereign enough to matter.
+Sovereign enough to matter.  
+Egypt‑originated. Globally sovereign.  
+Governance before automation. Audit before value. Accountability before scale.
+```
+
+---
