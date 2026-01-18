@@ -1,36 +1,31 @@
 // github-app/backend/routes/webhooks.js
 import express from "express";
-import { createAuditEvent } from "../services/audit.js";
+import { handleGitHubEvent } from "../services/events.js";
 
 const router = express.Router();
 
-router.post("/", (req, res) => {
+router.post("/", async (req, res) => {
   const eventType = req.headers["x-github-event"] || "unknown";
   const deliveryId = req.headers["x-github-delivery"] || "unknown";
 
-  // Minimal scope inference (expand later)
-  const scope = [];
-  if (req.body?.repository?.name) scope.push(req.body.repository.name);
+  try {
+    const result = await handleGitHubEvent({
+      eventType,
+      deliveryId,
+      payload: req.body
+    });
 
-  const auditEvent = createAuditEvent({
-    auditor: "github-app",
-    trigger: `github:${eventType}`,
-    scope,
-    severity: "Low",
-    finding: `Received GitHub webhook event '${eventType}' (delivery: ${deliveryId}).`,
-    evidence: [
-      req.body?.repository?.html_url ? `${req.body.repository.html_url}` : "",
-      req.body?.pull_request?.html_url ? `${req.body.pull_request.html_url}` : "",
-      req.body?.issue?.html_url ? `${req.body.issue.html_url}` : ""
-    ].filter(Boolean),
-    actionTaken: "Event accepted. Downstream processing may occur asynchronously.",
-    status: "Resolved"
-  });
+    // For scaffold: print audit event. In production, persist to DB/log store.
+    if (result?.auditEvent) {
+      console.log("[AuditEvent]", JSON.stringify(result.auditEvent, null, 2));
+      return res.status(200).json({ ok: true, audit_id: result.auditEvent.audit_id });
+    }
 
-  // For scaffold: log to console. In production: append to durable log store.
-  console.log("[AuditEvent]", JSON.stringify(auditEvent, null, 2));
-
-  return res.status(200).json({ ok: true, audit_id: auditEvent.audit_id });
+    return res.status(200).json({ ok: true });
+  } catch (err) {
+    console.error("[WebhookError]", err?.message || err);
+    return res.status(500).json({ ok: false, error: "Webhook processing failed" });
+  }
 });
 
 export default router;
