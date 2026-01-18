@@ -94,3 +94,15 @@ with trust, sovereignty, and durability.
 
 It complements existing technical systems
 by addressing the governance layer they often lack.
+
+---
+
+### Origin and Stewardship
+
+TEOS Forge originated in Egypt under the stewardship of
+**Elmahrosa International** through the **TEOS Egypt** initiative.
+
+It is maintained as a global public-interest governance standard
+for Digital Public Infrastructure (DPI),
+available for sovereign adoption by institutions worldwide.
+
