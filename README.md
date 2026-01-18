@@ -231,6 +231,9 @@ Each adopting entity retains full sovereignty,
 including the right to fork, modify, or disengage.
 
 ---
+Originated and stewarded by **Elmahrosa International — TEOS Egypt**  
+for global Digital Public Infrastructure.
+
 
 **Elmahrosa International — TEOS Egypt**  
 Originating Steward of TEOS Forge
