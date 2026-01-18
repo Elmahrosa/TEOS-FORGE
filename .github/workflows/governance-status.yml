@@ -1,0 +1,113 @@
+name: Governance Status Dashboard
+
+on:
+  workflow_dispatch:   # manual trigger
+  schedule:
+    - cron: "0 4 * * 0"   # runs weekly at 04:00 UTC
+
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo: [
+          "TEOS-FORGE",
+          "TEOS-Egypt-SovereignStack-2026",
+          "TEOS-Governance",
+          "Teos-Integration",
+          "International-Civic-Blockchain-Constitution",
+          "El-Mahrosa.Teos-Sovereign-System",
+          "SDK",
+          "API-Sovereign",
+          ".github",
+          "Teos-Sat-Sovereign-System",
+          "TEOS-Egypt-Civic-First-Blockchain-Ecosystem",
+          "Digital-Reconstruction-of-Gaza",
+          "Ask-Teos-AI",
+          "Teos-App-Studio",
+          "teos-egypt",
+          "TEOS-Egypt-Compliance-Kit",
+          "website",
+          "teosegyptweb",
+          "TEOS-Services-API",
+          "TEOS-Payment-Rail",
+          "TEOS-Token-SPL",
+          "hk-consensus-2026-teos",
+          "Teos-Sovereign-System",
+          "TEOS-Chat-Sovereign",
+          "TEOS-AI-Guard",
+          "Teos-Bankchain",
+          "Teos-Civic-Mixer",
+          "Teos-Pharaoh-Portal",
+          "Teos-Bankchain-Mobile",
+          "salma-unity-care-hospital",
+          "TeosEgypt-AI-Travel-OS",
+          "Teos-Wallet",
+          "teos_contribution_pool_complete",
+          "ERT-LAUNCH",
+          "TEOS-NFT-AI-Generator",
+          "ElMahrosa-Pi-Smart-City",
+          "TEOS-AI-Auditor",
+          "Teos-Gold-Reserve",
+          "FPBE-First-Pimisr-Bank-Elmahrosa",
+          "Teospump",
+          "TeosPitaxi",
+          "Teos-Pi-Smart-City",
+          "TeosEgypt-DomainPlatform",
+          "Elmahrosa-Blockchain",
+          "TEOS-MINER-TELEGRAM-BOT",
+          "Nilex",
+          "Elmahrosa-Map-of-PI",
+          "Mine_alltokens",
+          "TeosWallet",
+          "demo-repository"
+        ]
+
+    steps:
+      - name: Checkout ${{ matrix.repo }}
+        uses: actions/checkout@v3
+        with:
+          repository: Elmahrosa/${{ matrix.repo }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verify README governance block
+        run: |
+          if [ -f README.md ]; then
+            if grep -q "📍 Repo Standing Statement" README.md && grep -q "🔗 Integration Summary" README.md; then
+              echo "✅ ${{ matrix.repo }} aligned" >> $GITHUB_WORKSPACE/status.log
+            else
+              echo "⚠️ ${{ matrix.repo }} missing governance block" >> $GITHUB_WORKSPACE/status.log
+            fi
+          else
+            echo "❌ ${{ matrix.repo }} has no README.md" >> $GITHUB_WORKSPACE/status.log
+          fi
+
+      - name: Upload status artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: governance-status-${{ matrix.repo }}
+          path: $GITHUB_WORKSPACE/status.log
+
+  consolidate:
+    runs-on: ubuntu-latest
+    needs: dashboard
+    steps:
+      - name: Download all status logs
+        uses: actions/download-artifact@v3
+        with:
+          path: ./status
+
+      - name: Build governance-status.md
+        run: |
+          echo "# Governance Status Dashboard" > governance-status.md
+          echo "Generated on $(date -u)" >> governance-status.md
+          echo "" >> governance-status.md
+          cat ./status/* >> governance-status.md
+
+      - name: Commit dashboard
+        run: |
+          git config --global user.name "Elmahrosa Bot"
+          git config --global user.email "actions@github.com"
+          git add governance-status.md
+          git commit -m "Update governance-status dashboard" || echo "No changes to commit"
+          git push
