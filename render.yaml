@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: teos-forge-github-app-backend
+    env: node
+    plan: free
+    rootDir: github-app/backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: GITHUB_WEBHOOK_SECRET
+        sync: false
+      - key: GITHUB_APP_ID
+        sync: false
+      - key: GITHUB_INSTALLATION_ID
+        sync: false
+      - key: GITHUB_APP_PRIVATE_KEY
+        sync: false
