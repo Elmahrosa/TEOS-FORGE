@@ -1,0 +1,90 @@
+name: Enforce README Governance Across Org
+
+on:
+  workflow_dispatch:   # manual trigger
+  schedule:
+    - cron: "0 3 * * 0"   # runs weekly at 03:00 UTC
+
+jobs:
+  enforce:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo: [
+          "TEOS-FORGE",
+          "TEOS-Egypt-SovereignStack-2026",
+          "TEOS-Governance",
+          "Teos-Integration",
+          "International-Civic-Blockchain-Constitution",
+          "El-Mahrosa.Teos-Sovereign-System",
+          "SDK",
+          "API-Sovereign",
+          ".github",
+          "Teos-Sat-Sovereign-System",
+          "TEOS-Egypt-Civic-First-Blockchain-Ecosystem",
+          "Digital-Reconstruction-of-Gaza",
+          "Ask-Teos-AI",
+          "Teos-App-Studio",
+          "teos-egypt",
+          "TEOS-Egypt-Compliance-Kit",
+          "website",
+          "teosegyptweb",
+          "TEOS-Services-API",
+          "TEOS-Payment-Rail",
+          "TEOS-Token-SPL",
+          "hk-consensus-2026-teos",
+          "Teos-Sovereign-System",
+          "TEOS-Chat-Sovereign",
+          "TEOS-AI-Guard",
+          "Teos-Bankchain",
+          "Teos-Civic-Mixer",
+          "Teos-Pharaoh-Portal",
+          "Teos-Bankchain-Mobile",
+          "salma-unity-care-hospital",
+          "TeosEgypt-AI-Travel-OS",
+          "Teos-Wallet",
+          "teos_contribution_pool_complete",
+          "ERT-LAUNCH",
+          "TEOS-NFT-AI-Generator",
+          "ElMahrosa-Pi-Smart-City",
+          "TEOS-AI-Auditor",
+          "Teos-Gold-Reserve",
+          "FPBE-First-Pimisr-Bank-Elmahrosa",
+          "Teospump",
+          "TeosPitaxi",
+          "Teos-Pi-Smart-City",
+          "TeosEgypt-DomainPlatform",
+          "Elmahrosa-Blockchain",
+          "TEOS-MINER-TELEGRAM-BOT",
+          "Nilex",
+          "Elmahrosa-Map-of-PI",
+          "Mine_alltokens",
+          "TeosWallet",
+          "demo-repository"
+        ]
+
+    steps:
+      - name: Checkout ${{ matrix.repo }}
+        uses: actions/checkout@v3
+        with:
+          repository: Elmahrosa/${{ matrix.repo }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Clean and inject governance block
+        run: |
+          HEADER="# 📍 Repo Standing Statement\n\nThis repository is a **sovereign original** under **Elmahrosa International — TEOS Egypt**.\nGovernance is anchored in [TEOS-FORGE](https://github.com/Elmahrosa/TEOS-FORGE).\nCommercial use requires written approval from Elmahrosa International.\n\n⚖️ Protected under dual license: PolyForm Noncommercial + TEOS Egypt Sovereign License (TESL).\n"
+          FOOTER="\n## 🔗 Integration Summary\nThis repository is part of the **Elmahrosa Sovereign Stack**.\nGovernance is anchored in **TEOS-FORGE**, with integrations across Bankchain, ERT-LAUNCH, FPBE, and other civic modules.\nSee full details in [docs/integrations.md](https://github.com/Elmahrosa/TEOS-FORGE/blob/main/docs/integrations.md).\n"
+
+          if [ -f README.md ]; then
+            CONTENT=$(cat README.md)
+            CLEAN=$(echo "$CONTENT" | sed -E 's/#\s*[?📍].*TESL\.\s*//g' | sed -E 's/##\s*[?🔗].*integrations\.md\)\.//g')
+            echo -e "$HEADER\n$CLEAN\n$FOOTER" > README.md
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "Elmahrosa Bot"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto-fix README: enforce UTF-8 governance block" || echo "No changes to commit"
+          git push
