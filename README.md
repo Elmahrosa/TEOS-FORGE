@@ -209,6 +209,30 @@ Structured enough to govern.
 Sovereign enough to matter.  
 Egypt‑originated. Globally sovereign.  
 Governance before automation. Audit before value. Accountability before scale.
-```
+
+---
+
+## Stewardship & Origin
+
+TEOS Forge is an **Egyptian-originated global standard**
+for governing Digital Public Infrastructure (DPI).
+
+It is stewarded by **Elmahrosa International** as part of the **TEOS Egypt** initiative.
+
+Stewardship denotes:
+- Origin authorship
+- Reference governance maintenance
+- Architectural continuity
+
+It does **not** confer control, ownership, or jurisdiction
+over adopting institutions or deployments.
+
+Each adopting entity retains full sovereignty,
+including the right to fork, modify, or disengage.
+
+---
+
+**Elmahrosa International — TEOS Egypt**  
+Originating Steward of TEOS Forge
 
 ---
