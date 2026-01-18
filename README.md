@@ -32,7 +32,6 @@ teos add template pi-marketplace  # Add an institutional template
 teos validate                     # Verify governance + compliance
 teos deploy testnet               # Deploy to TEOS testnet
 teos audit --export pdf           # Export audit bundle
-````
 
 > ⚠️ Projects that fail `teos validate` **cannot claim TEOS legitimacy**.
 
