@@ -28,6 +28,25 @@ Built on GitHub, Powered by TEOS
 ![Security Policy](https://img.shields.io/badge/Security-Policy-critical)
 
 ---
+## Who TEOS Forge Is For
+
+TEOS Forge is designed for:
+
+- Governments and public institutions
+- National and cross-border Digital Public Infrastructure (DPI)
+- Civic-tech and public software foundations
+- Long-lived protocol and infrastructure builders
+- Institutions requiring auditability, sovereignty, and exit guarantees
+
+It is **originated in Egypt**, but **not limited to any jurisdiction**.
+
+TEOS Forge is intentionally:
+- Jurisdiction-agnostic
+- Vendor-neutral
+- Sovereignty-preserving
+- Compatible with national legal frameworks
+
+It is not optimized for speculative ecosystems or informal governance.
 
 ## What Is TEOS Forge?
 
