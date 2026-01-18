@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "node ./bin/teos.js",
     "lint": "node -c ./bin/teos.js && node -c ./src/index.js",
-    "test": "node ./bin/teos.js validate"
+    "test": "node --test"
   },
   "dependencies": {
     "commander": "^12.1.0",
