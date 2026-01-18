@@ -1,7 +1,7 @@
 // github-app/backend/services/audit.js
 
 /**
- * In-memory daily counter for demo scaffold.
+ * In-memory yearly counter for demo scaffold.
  * In production, replace with persistent store (DB).
  */
 const countersByYear = new Map();
@@ -17,7 +17,16 @@ function pad3(n) {
   return String(n).padStart(3, "0");
 }
 
-export function createAuditEvent({ auditor, trigger, scope, severity, finding, evidence, actionTaken, status }) {
+export function createAuditEvent({
+  auditor,
+  trigger,
+  scope,
+  severity,
+  finding,
+  evidence,
+  actionTaken,
+  status
+}) {
   const now = new Date();
   const year = now.getUTCFullYear();
   const num = nextAuditNumber(year);
