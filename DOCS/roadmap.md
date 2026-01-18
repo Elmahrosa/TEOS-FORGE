@@ -8,6 +8,9 @@ No phase is skipped.
 No automation precedes governance.
 
 ---
+> TEOS Forge is Egypt‑originated but globally applicable.  
+> Each phase prepares for **international institutional adoption**.
+
 
 ## Guiding Principle
 
