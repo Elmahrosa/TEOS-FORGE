@@ -1,6 +1,7 @@
 // github-app/backend/app.js
 import express from "express";
 import webhookRoutes from "./routes/webhooks.js";
+import healthRoutes from "./routes/health.js";
 import verifySignature from "./middleware/verify-signature.js";
 
 const app = express();
@@ -17,7 +18,7 @@ app.use(
   })
 );
 
-app.get("/health", (_req, res) => res.status(200).json({ ok: true }));
+app.use("/health", healthRoutes);
 
 // Verify signature only for webhook endpoint
 app.use("/webhooks", verifySignature, webhookRoutes);
