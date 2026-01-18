@@ -1,30 +1,40 @@
-## ⚖️ License
+# LICENSING NOTICE
 
-This repository is **source‑available, not open source**. It is governed by a dual‑license structure to ensure institutional control and sovereignty.
+This repository is **source-available, not open source**.
 
-It uses the **PolyForm Noncommercial License 1.0.0** and the **TEOS Egypt Sovereign License (TESL)**.
+It is governed by a **dual-license framework** to ensure clarity, institutional control, and digital sovereignty.
 
-* **Forks allowed** for noncommercial use (education, research, testing).
-* **Commercial use** requires written approval from **Elmahrosa International**.
-* **Violations** of these terms result in the immediate termination of all rights.
+## Governing Licenses
 
----
+### 1. PolyForm Noncommercial License 1.0.0
 
-### 📩 Contact for Commercial Licensing
+This license applies to all usage of the repository that is **noncommercial**, including:
 
-For inquiries regarding commercial deployment or institutional partnerships, please contact the lead steward:
+- Education  
+- Academic research  
+- Evaluation and testing  
+- Civic and community development
 
-**Contact:** Ayman Seif
+**Full license text (authoritative):**  
+https://polyformproject.org/licenses/noncommercial/1.0.0/ :contentReference[oaicite:2]{index=2}
 
-**Email:** [ayman@teosegypt.com](mailto:ayman@teosegypt.com)
+### 2. TEOS Egypt Sovereign License (TESL)
 
----
+This license applies to **sovereign, governmental, institutional, or regulated deployments** of this software.
 
-### Full License Documentation
+**Full license text:**  
+https://github.com/Elmahrosa/TEOS-FORGE/blob/main/LICENSES/TESL.md
 
-To ensure compliance, please review the full text of both governing licenses:
+## License Terms
 
-* **[PolyForm Noncommercial License](https://www.google.com/search?q=LICENSE)** – Governs the general noncommercial use of the software.
-* **[TEOS Egypt Sovereign License (TESL.md)](https://www.google.com/search?q=TESL.md)** – Defines the specific sovereign and institutional protections for TEOS Forge.
+- ✅ **Non-commercial forks are permitted** for education, research, and testing.
+- ❌ **Commercial use is prohibited** without prior written authorization from Elmahrosa International.
+- 🏛 **Government or institutional use** is governed by the TEOS Egypt Sovereign License.
+- ⚠️ Any violation of these terms **terminates all rights** granted under these licenses.
 
-**Would you like me to draft a summary table comparing what is permitted under the Noncommercial vs. Commercial license tiers?**
+## Commercial & Institutional Licensing
+
+For questions about commercial deployment or institutional partnerships, contact:
+
+**Ayman Seif — Elmahrosa International**  
+Email: ayman@teosegypt.com
