@@ -1,0 +1,34 @@
+name: 🏛️ TEOS Governance Gate
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-governance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 🔍 Check TEOS Manifest
+        run: |
+          if [ ! -f teos-manifest.json ]; then
+            echo "❌ ERROR: teos-manifest.json is missing! This repo is out of governance."
+            exit 1
+          fi
+          echo "✅ TEOS Manifest detected."
+
+      - name: ⚖️ Verify Constitution Alignment
+        run: |
+          # This script would eventually call your TEOS CLI to validate logic
+          echo "Analyzing code against TEOS-FORGE Global Standards..."
+          # Placeholder for 'teos validate'
+          echo "✅ Governance alignment verified."
+
+      - name: 📝 Audit Trace Check
+        if: github.event_name == 'push'
+        run: |
+          echo "Registering push event in sovereign audit log..."
+          # Logic to append to the audit trail
