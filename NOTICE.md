@@ -1,34 +1,43 @@
-﻿# NOTICE
+# NOTICE
 
-This repository is part of the **Elmahrosa Sovereign Stack**, originated and stewarded by  
-**Elmahrosa International — TEOS Egypt**.
+This repository is the **supreme governance stewardship layer**
+of the **Elmahrosa Sovereign Stack (TEOS)**.
 
-## Licensing Framework
+It operationalizes the International Civic Blockchain Constitution
+into enforceable governance rules and lifecycle controls.
 
-Use of this software is governed by a **dual-license model**:
+## Constitutional Authority
 
-- **PolyForm Noncommercial License 1.0.0**  
-  For education, research, testing, and non-commercial forks.
+- **International Civic Blockchain Constitution**  
+  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
 
-- **TEOS Egypt Sovereign License (TESL)**  
-  For all commercial, governmental, institutional, or regulated deployments.
+This constitution is the **single source of governance legitimacy**.
 
-## TESL References
+## Governance Anchor
 
-- **Canonical source (single source of truth):**  
-  https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md
+All TEOS repositories, modules, and deployments
+are governed and coordinated through:
 
-- **Local mirror (if present):**  
-  /LICENSES/TESL.md
+- **TEOS-FORGE**  
+  https://github.com/Elmahrosa/TEOS-FORGE
 
-If any discrepancy exists between the mirror and the canonical source,  
-**the canonical TESL prevails**.
+## License Authority
 
-## Stewardship
+This repository is governed exclusively by the
+**TEOS Egypt Sovereign License (TESL)**.
 
-All governance, policy, and lifecycle oversight are anchored in  
-**TEOS-FORGE**:  
-https://github.com/Elmahrosa/TEOS-FORGE
+- **Canonical TESL:**  
+  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE
 
-For institutional pilots, licensing, or certification inquiries:  
+If any discrepancy exists, the canonical TESL prevails.
+
+## Usage Restriction
+
+This repository is **source-available, not open source**.
+Any use beyond internal evaluation requires
+explicit written authorization from Elmahrosa International.
+
+## Contact
+
+Governance, certification, or institutional coordination:  
 📧 ayman@teosegypt.com
