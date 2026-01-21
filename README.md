@@ -1,203 +1,139 @@
-[![TEOS Sovereign Standing](https://img.shields.io/badge/Standing-Sovereign%20Original%20%E2%80%94%20Elmahrosa%20International-blue?style=for-the-badge)](https://github.com/Elmahrosa)  
-[![License: TESL + PolyForm](https://img.shields.io/badge/License-TESL%20%2B%20PolyForm%20Noncommercial-green?style=for-the-badge)](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)
-
-# 🏛 TEOS Forge
-
-**Governance before automation.  
-Audit before value.  
-Accountability before scale.**
-
-Originated and stewarded by **Elmahrosa International — TEOS Egypt**
+# 🏛️ TEOS-FORGE | ELMAHROSA
+**Sovereign Governance Stewardship & Lifecycle Authority**
 
 ---
 
-## 📌 Overview
+## 📍 Repository Standing
 
-**TEOS Forge** is the governance backbone of the **Elmahrosa Sovereign Stack**.
+This repository is the **supreme governance anchor** of the  
+**TEOS / Elmahrosa Sovereign Stack**.
 
-It defines how civic, institutional, and sovereign digital systems are **designed, governed, audited, and scaled** *before* automation or value transfer.
+It defines how governance is authored, versioned, enforced, and evolved
+across all TEOS systems and deployments.
 
-TEOS Forge is not a document archive.  
-It is a **living governance engine** and a **state-grade development factory** for **Digital Public Infrastructure (DPI)**.
-
----
-
-## 🛠️ Developer Toolkit (Forge Layer)
-
-TEOS Forge is governance **and** production.
-
-The `forge/` layer provides tools, templates, and SDKs for building governed applications that may claim **TEOS legitimacy only after governance validation**.
-
-### CLI Commands (MVP)
-
-```bash
-teos init my-dpi-project
-teos add template pi-marketplace
-teos validate
-teos deploy testnet
-teos audit --export pdf
-```
-
-> ⚠️ Projects that fail `teos validate` **cannot claim TEOS legitimacy**.
+**Founder & Owner:** Elmahrosa International — TEOS Egypt  
+**Founder Authority:** Ayman Seif
 
 ---
 
-## 📂 Repository Structure
+## Constitutional Authority (Read First)
 
-```text
-TEOS-FORGE/
-├── governance/      # Constitutional rules (immutable)
-├── forge/           # CLI, templates, contracts, SDK
-├── integration/     # Bridges to Pi, banking, government
-├── deployment/      # Local, testnet, mainnet environments
-└── docs/            # Governance + institutional documentation
-```
+All governance legitimacy derives from the **International Civic Blockchain Constitution**.
 
-Governance is the **spine**.  
-Forge is the **muscle**.  
-Outputs are **sovereign digital institutions**.
+- **International Civic Blockchain Constitution (Single Source of Truth):**  
+  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution
+
+TEOS-FORGE operationalizes the Constitution into enforceable governance artifacts.
 
 ---
 
-## 🧩 Templates (Institutional Blueprints)
+## Governance Doctrine
 
-TEOS Forge provides **institutional templates**, not hackathon starters.  
-Each template includes governance configuration, audit rules, and compliance flags.
+**Born in Egypt for the World**  
+*Built in Egypt. Engineered for Nations. Scaled for the World.*
 
-* 🪪 Digital Identity Registry  
-* 💸 Subsidy / Aid Distribution System  
-* 🛒 Public Marketplace  
-* 📑 Cooperative Treasury  
-* 💳 Pi-based Payments Application  
+Elmahrosa establishes governance first.  
+Institutions enforce policy.  
+Technology executes under authority.
 
----
-
-## 📊 Compliance Dashboard
-
-TEOS Forge maintains a governance alignment dashboard to ensure **continuous enforcement** across the stack.
-
-A live `governance-status.md` file tracks compliance alignment across integrated repositories.
-
-| Repository | Status                |
-| ---------- | --------------------- |
-| TEOS-FORGE | ✅ Aligned             |
-| Bankchain  | ✅ Aligned             |
-| Demo Repo  | ⚠️ Missing Governance |
-
-This dashboard is designed to be updated via **GitHub Actions** on a fixed schedule.
+No protocol, DAO, AI, or blockchain mechanism may supersede
+human, institutional, or sovereign governance.
 
 ---
 
-## 📈 Success Metrics
+## About This Repository
 
-TEOS Forge measures success through **institutional outcomes**:
+**TEOS-FORGE** is the **governance forge** of the TEOS ecosystem.
 
-* Number of governed applications deployed  
-* Number of audit-ready outputs produced  
-* Institutional pilots launched  
-* Governments / NGOs referencing TEOS documentation  
-* Forks that **retain governance rules** without dilution  
+It is responsible for:
+- Governance lifecycle management
+- Policy versioning and ratification
+- Constitutional enforcement
+- Cross-repository governance alignment
+- Institutional certification readiness
 
----
-
-## ⚠️ Strategic Positioning
-
-TEOS Forge is a **state-grade software factory** with optional blockchain rails.  
-It is designed to produce **auditable, sovereign, long-lived digital institutions**, not speculative consumer applications.
+> TEOS-FORGE is **not an application** and **not a DAO**.  
+> It is a sovereign governance control layer designed for nations and institutions.
 
 ---
 
-## 🔗 Integration Summary
+<div align="center">
 
-This repository is part of the **Elmahrosa Sovereign Stack**.
+[![TESL License](https://img.shields.io/badge/License-TESL%20Sovereign-red?style=for-the-badge&labelColor=000000)](https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE)
+[![Module](https://img.shields.io/badge/Module-Governance_Stewardship-gold?style=for-the-badge)](https://github.com/Elmahrosa/TEOS-FORGE)
+[![Ecosystem](https://img.shields.io/badge/Ecosystem-TEOS_Sovereign_Core-blue?style=for-the-badge)](https://github.com/Elmahrosa)
 
-* Governance anchored in **TEOS Forge**  
-* Integrations across Bankchain, ERT-LAUNCH, FPBE, and other civic modules  
-* Designed for sovereign, institutional, and DPI-grade deployments  
-
-📄 Full integration details:  
-[https://github.com/Elmahrosa/TEOS-FORGE/blob/main/docs/integrations.md](https://github.com/Elmahrosa/TEOS-FORGE/blob/main/docs/integrations.md)
+</div>
 
 ---
 
-## 📍 Repository Standing Statement
+## Mission
 
-This repository is a **sovereign original work** under  
-**Elmahrosa International — TEOS Egypt**.
+The mission of **TEOS-FORGE** is to ensure that **governance remains authoritative,
+coherent, and enforceable** across the entire TEOS ecosystem.
 
-All governance, policy, and lifecycle oversight are anchored in  
-**TEOS-FORGE**:  
-[https://github.com/Elmahrosa/TEOS-FORGE](https://github.com/Elmahrosa/TEOS-FORGE)
-
-Commercial use, institutional deployment, or regulated integration  
-**requires prior written approval** from Elmahrosa International.
-
-⚖️ **Protected under a dual-license framework**
-
-* **PolyForm Noncommercial License 1.0.0**  
-* **TEOS Egypt Sovereign License (TESL)**  
-  Canonical source:  
-  [https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md](https://github.com/Elmahrosa/Teos-Pharaoh-Portal/blob/main/TESL.md)  
-  Mirror (for convenience):  
-  `/LICENSES/TESL.md`
-
-### Key Terms
-
-* ✅ Forks permitted for **non-commercial use** (education, research, testing)  
-* ❌ Commercial use prohibited without written authorization  
-* ⚠️ License violations result in **immediate termination of rights**  
-
-📩 **Commercial & Institutional Licensing**  
-**Ayman Seif** — Founder & Executive Steward  
-Elmahrosa International — TEOS Egypt  
-📧 [ayman@teosegypt.com](mailto:ayman@teosegypt.com)
+It guarantees that:
+- Governance precedes automation
+- Human authority precedes AI
+- National law precedes protocol rules
+- Accountability precedes scale
+- All technical systems remain constitutionally bound
 
 ---
 
-## ✅ Contribution Checklist
+## Scope of Authority
 
-All contributions must comply with governance and licensing requirements.
-
-* [ ] Issue created using the approved template  
-* [ ] Pull request linked to an issue  
-* [ ] CI checks passing  
-* [ ] Audit review completed (if applicable)  
-* [ ] Governance impact declared  
-* [ ] License terms acknowledged  
-
-Contributions that bypass governance requirements may be rejected.
+| Domain | Responsibility |
+|------|----------------|
+| Constitution | Stewardship and enforcement |
+| Governance Lifecycle | Draft → Review → Ratify → Enforce |
+| Version Control | Policy evolution and deprecation |
+| Compliance | Alignment verification across repos |
+| Certification | Institutional and national readiness |
+| Arbitration | Governance conflicts and overrides |
 
 ---
 
-## 🤝 Community Coordination
+## Core Principles
 
-Contributors are encouraged to coordinate via the **TEOS Forge Telegram group**  
-for real-time discussion and alignment.
-
-Access details:  
-📄 `docs/join.md`
-
----
-
-## 🏁 Stewardship & Authority
-
-**TEOS Forge** is originated, governed, and stewarded by  
-**Elmahrosa International — TEOS Egypt**.
-
-### Founder & Executive Steward Signature
-
-**Ayman Seif**  
-Founder & Executive Steward, TEOS Forge  
-Elmahrosa International — TEOS Egypt  
-
-This repository represents **sovereign governance infrastructure**,  
-not a community-managed open-source project.
+1. Constitution before code  
+2. Governance before automation  
+3. Human authority before AI  
+4. Sovereignty before decentralization  
+5. Accountability before scale  
 
 ---
 
-## 📜 Final Statement
+## Ecosystem Enforcement
 
-> **TEOS Forge is a Development Factory governed by constitutional rules, designed to produce auditable, sovereign, long-lived digital institutions.**
+All TEOS repositories and deployments:
+- Must reference TEOS-FORGE as the governance anchor
+- Must comply with ratified governance artifacts
+- Are subject to review, suspension, or revocation if non-compliant
+
+---
+
+## ⚖️ License & Authority
+
+This repository is governed **exclusively** by the  
+**TEOS Egypt Sovereign License (TESL)**.
+
+- **Canonical License:**  
+  https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE
+
+- **Status:** Proprietary • Source-Available  
+- **Rights Holder:** Elmahrosa International  
+
+AI systems are **decision-support only**.  
+**Final authority always remains human and sovereign.**
+
+---
+
+**Founder & Architect:** Ayman Seif  
+**Authority:** Elmahrosa International  
+📧 ayman@teosegypt.com  
+
+🇪🇬 *Governance forged in Egypt — enforced globally.*
 
 ---
 
