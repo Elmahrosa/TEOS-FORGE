@@ -1,40 +1,14 @@
-# LICENSING NOTICE
+# TEOS Egypt Sovereign License (TESL)
+
+Copyright © 2025–2026 Elmahrosa International
+All Rights Reserved.
+
+This repository is governed by the
+**TEOS Egypt Sovereign License (TESL)**.
+
+**Canonical license (single source of truth):**  
+https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE
+
+If any discrepancy exists, the canonical TESL prevails.
 
 This repository is **source-available, not open source**.
-
-It is governed by a **dual-license framework** to ensure clarity, institutional control, and digital sovereignty.
-
-## Governing Licenses
-
-### 1. PolyForm Noncommercial License 1.0.0
-
-This license applies to all usage of the repository that is **noncommercial**, including:
-
-- Education  
-- Academic research  
-- Evaluation and testing  
-- Civic and community development
-
-**Full license text (authoritative):**  
-https://polyformproject.org/licenses/noncommercial/1.0.0/ :contentReference[oaicite:2]{index=2}
-
-### 2. TEOS Egypt Sovereign License (TESL)
-
-This license applies to **sovereign, governmental, institutional, or regulated deployments** of this software.
-
-**Full license text:**  
-https://github.com/Elmahrosa/TEOS-FORGE/blob/main/LICENSES/TESL.md
-
-## License Terms
-
-- ✅ **Non-commercial forks are permitted** for education, research, and testing.
-- ❌ **Commercial use is prohibited** without prior written authorization from Elmahrosa International.
-- 🏛 **Government or institutional use** is governed by the TEOS Egypt Sovereign License.
-- ⚠️ Any violation of these terms **terminates all rights** granted under these licenses.
-
-## Commercial & Institutional Licensing
-
-For questions about commercial deployment or institutional partnerships, contact:
-
-**Ayman Seif — Elmahrosa International**  
-Email: ayman@teosegypt.com
