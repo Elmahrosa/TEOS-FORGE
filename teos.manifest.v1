@@ -1,0 +1,30 @@
+{
+  "schema": "teos.manifest.v1",
+  "name": "TEOS-FORGE",
+  "repo": "Elmahrosa/TEOS-FORGE",
+  "role": "Core",
+  "status": "active",
+  "version": "0.1.0",
+  "authority": {
+    "icbc": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution",
+    "tesl_canonical": "https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution/blob/main/LICENSE"
+  },
+  "stewardship": {
+    "teos_forge": "https://github.com/Elmahrosa/TEOS-FORGE",
+    "kernel": "https://github.com/Elmahrosa/elmahrosa-core"
+  },
+  "interfaces": {
+    "provides": ["lifecycle.governance", "release.policy", "stewardship.rules"],
+    "consumes": ["icbc.constitution", "tesl.license"]
+  },
+  "compliance": {
+    "jurisdictions": ["EG"],
+    "data_sensitivity": "public",
+    "controls": ["ICBC", "TESL_CANONICAL", "BRANCH_PROTECTION"]
+  },
+  "audit": {
+    "events": ["stewardship.updated", "release.policy.updated", "compliance.rule.updated"],
+    "evidence_export": { "formats": ["jsonl"], "retention_days": 365 }
+  },
+  "contacts": { "owner": "Ayman Seif", "security": "ayman@teosegypt.com" }
+}
