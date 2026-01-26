@@ -18,6 +18,7 @@ This repository derives its authority from the **International Civic Blockchain 
 > **https://github.com/Elmahrosa/International-Civic-Blockchain-Constitution**
 
 Any implementation or use of this governance framework must comply fully with the ICBC and TESL. TEOS-FORGE operationalizes the Constitution into enforceable governance artifacts.
+This authority is binding across all jurisdictions and supersedes any conflicting technical, community, or automated governance claims.
 
 ---
 
