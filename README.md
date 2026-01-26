@@ -106,6 +106,7 @@ All TEOS repositories and deployments are subject to the authority of the FORGE:
 *   **Mandatory Reference:** All projects must reference TEOS-FORGE as their governance anchor.
 *   **Compliance:** All systems must comply with ratified governance artifacts.
 *   **Sanctions:** Projects are subject to review, suspension, or revocation of access if found non-compliant.
+* **Auditability:** All governance decisions must be traceable, reviewable, and exportable for institutional oversight.
 
 ---
 
